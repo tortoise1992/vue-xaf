@@ -1,21 +1,29 @@
 # vue-xaf
 
-> A Vue.js project
+> 基于vue2+es6+webpack+axios+vuex构建的xaf平台erp系统
 
-## Build Setup
+## 准备环境
+
+建议安装最新稳定版node.js，[下载地址](http://nodejs.cn/download/)，选择对应操作系统的版本安装即可。
+
+## 基本命令
+
+打开系统自带的cmd命令行，或者git的bash，执行以下命令
 
 ``` bash
-# install dependencies
-npm install
+# 切换为淘宝镜像，通过cnpm执行安装依赖
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-# serve with hot reload at localhost:8080
+# 安装依赖
+cnpm install
+
+# 启动开发环境
 npm run dev
 
-# build for production with minification
+# 构建发布版本
 npm run build
 
-# build for production and view the bundle analyzer report
+# 分析构建记录
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

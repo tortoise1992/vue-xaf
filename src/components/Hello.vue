@@ -1,5 +1,5 @@
 <template>
-    <el-table
+    <!-- <el-table
       :data="tableData"
       style="width: 100%">
       
@@ -7,9 +7,16 @@
         prop="name"
         label="姓名"
         width="180">
-      </el-table-column>
-      
-    </el-table>
+      </el-table-column>     
+      <el-table-column
+        prop="age"
+        label="年龄"
+        width="180">
+      </el-table-column>    
+    </el-table> -->
+    <div>
+      111
+    </div>
   </template>
 
 <script>
