@@ -1,1 +1,1 @@
-module.exports='http://www.easy-mock.com/mock/59b11a27e0dc663341a13942/api'
+module.exports='http://www.easy-mock.com/mock/59b11a27e0dc663341a13942/api'  //easy mock的请求主路径
