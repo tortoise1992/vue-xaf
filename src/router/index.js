@@ -36,8 +36,8 @@ let router=new Router({
 })
 //to是需要到达的路径,from是旧的路径
 router.beforeEach((to,from,next)=>{
-  console.log(to)
-  console.log(from)
+  // console.log(to)
+  // console.log(from)
   if(to.meta.auth){
     if(store.state.token){
       next()
