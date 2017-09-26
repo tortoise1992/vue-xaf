@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="side-nav">
-      <p>测试一下</p>
+      <p>测试</p>
     </div>
     
     <router-view></router-view>

@@ -8,6 +8,7 @@ import router from './router'
 import axios from 'axios'
 import mock from '../config/mock'
 
+import store from './store/store'
 Vue.prototype.$http = axios
 Vue.prototype.$mock=mock
 Vue.config.productionTip = false
@@ -16,6 +17,7 @@ Vue.use(ElementUI)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
   components: { App }
